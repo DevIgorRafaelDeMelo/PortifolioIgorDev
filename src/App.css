@@ -1,0 +1,395 @@
+.App {
+  text-align: center;
+  background: #121314;
+  height: 100vh;
+  width: 90%;
+  margin: auto;
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body{
+  background: rgb(24, 24, 24);
+}
+
+img{
+  width: 100px;
+  height: 100px;
+}
+
+.Top{
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  padding-top: 40px;
+}
+
+.Name-Funcion{
+  margin-top: 30px;
+  font-weight: 800;
+  font-size: x-large;
+  color: whitesmoke;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul{
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  color: rgb(3, 71, 131);
+}
+
+li{
+  margin: 10px;
+  padding:10px 30px;
+}
+.Midpage{
+  display: flex;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: 10%;
+}
+.My{
+  width: 180%;
+}
+.Line{
+  height: 3px;
+  width: 250px;
+  background: #0590e6;
+
+}
+.Nick{
+  color: aliceblue;
+  font-family: 'EB Garamond', serif;
+  font-size: 50px;
+  text-align: start;
+  margin-top: 40px;
+  
+}
+.Nicks{
+  margin-top: 15px;
+  text-align: start;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 100;
+  font-size: 25px;
+  color: rgb(167, 167, 167);
+}
+.Img{
+  text-align: start;
+  margin-top: 40px;
+}
+img{
+  height: 80px;
+  width: 80px;
+  margin-right: 20px;
+}
+.Title{
+  text-align: start;
+  color: aliceblue;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+.Informs{
+  text-align: start;
+  margin-bottom: 40px;
+  color: rgb(147, 147, 147);
+}
+button{
+  margin-top: 45px;
+  background: #121314;
+  padding: 15px 100px;
+  border: solid 2px white;
+  color: aliceblue;
+}
+.Menu{
+  margin-top: 160px;
+  text-align: start;
+}
+.Sociais{width: 90%;
+  color: aliceblue;
+  position: fixed;
+  bottom: 90px;
+}
+svg{
+  margin: 10px;
+}
+a{
+  color: aliceblue;
+}
+li:hover{
+  background: #080ece;
+}
+button:hover{
+  background: #0590e6;
+  color: rgb(251, 251, 251);
+
+}
+svg:hover{
+  color: #3f3f3f;
+
+}
+.Flex{
+  font-display: flex;
+  width: 100%;
+  text-align: end;
+  padding: 30px;
+  padding-top: 50px;
+}
+.Dados-Curso{
+  text-align: start;
+  padding-left: 100px;
+  padding-right: 300px;
+  padding-top: 50px;
+  width: 70%;
+}
+.Nome-Escola{
+  font-size: xx-large;
+}
+
+.Sobre{
+  position: fixed;
+  top: 0px;
+  height: 100%;
+  width: 90%;
+  background: rgb(250, 250, 250);
+  display: none;
+}
+.Curso{
+  margin-top: 50px;
+  display: flex;
+}
+.Close{
+  position: fixed;
+  top: 5%;
+  right: 15%;
+  padding: 20PX;
+}
+
+.Formaçao{
+  position: fixed;
+  top: 0px;
+  padding-top: 100PX;
+  height: 100%;
+  width: 90%;
+  background: rgb(241, 241, 241);
+}
+
+p{
+  font-size: xx-large;
+  
+}
+
+.Barra{
+  height: 200px;
+  width: 6px;
+  background: #0667c8;
+}
+
+.Btn-Link{
+  border: none;
+  margin: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 20px 40px ;
+  border-radius: none;
+  border-bottom:solid 1px  #f9f9f9;
+}
+
+
+.Projetos{
+  position: fixed;
+  top: 0px;
+  padding-top: 100PX;
+  height: 100%;
+  width: 90%;
+  background: rgb(241, 241, 241);
+}
+.Text-Titulo{
+  font-size: xx-large;
+}
+.Line-Sobre{
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  width: 500px;
+  height: 3px;
+  background: #1f65dc;
+}
+
+.Sobre{
+  padding-top:200px ;
+}
+.Descrisao{
+  text-align: start;
+  padding: 350px;
+  padding-top: 50px;
+  font-size: x-large;
+}
+span{
+  color: #096ae1;
+  font-size: xx-large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.Img-Sec{
+  height: 30px;
+  width: 30px;
+  margin-right: 20px;
+  margin-top: 10px;
+  
+}
+.Img-Sub{
+  text-align: start;
+  margin-top: 20px;
+}
+.sobre-single{
+  padding-top: 200px;
+  height: 50vh;
+  text-align: center;
+}
+.text-title-1{
+  color: white;
+  font-size: 34px;
+}
+.text-title-2{
+  width: 50%;
+  margin: auto;
+  margin-top: 50px;
+  color: white;
+  font-size: 20px;
+}
+.formaçao-single{
+  height: 80vh;
+}
+.formaçao-title{
+  justify-content: space-between;
+  color: white;
+  text-align: center;
+  font-size: xx-large;
+  margin: 100px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.formaçao-title-1{
+  justify-content: space-between;
+  color: white;
+  text-align: center;
+  font-size: xx-large;
+  margin-bottom: 70px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.card-formaçao{
+  display: flex;
+  width: 48%;
+  margin: auto;
+  margin-top: 30px;
+}
+.box-formaçao{
+  color: white;
+  width: 100%;
+  text-align: end;
+}
+.formaçao-local{
+  font-weight: 700;
+  font-size: larger;
+}
+.formaçao-line{
+  height: 200px;
+  margin: 20px;
+  margin-top: 0%;
+  width: 2px;
+  background: #0376be;
+
+}
+.box-formaçao-2{
+  color: white;
+  width: 100%;
+  text-align: start;
+}
+.formaçao-materia{
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.formaçao-legenda{
+  font-size: 14px;
+}
+.projetos-single{
+  margin-bottom: 200px;
+}
+.card-projetos{
+  width: 50%;
+  margin: auto;
+  display: flex;
+}
+.img-projetos{
+  width: 500px;
+  height: 300px;
+}
+.projetos-title{
+  color: white;
+  font-size: 35px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.projetos-descriçao{
+  color: white;
+  margin-bottom: 50px;
+}
+.projetos-img{
+  height: 30px;
+  width: 30px;
+}
+.flex{
+  display: flex;
+}
+a{
+  text-decoration: none;
+}
+.btn-projetos{
+  padding: 10px;
+  width: 150px;
+  margin-top: 30px;
+  text-align: center;
+  margin-right: 10px;
+  background: #0590e6;
+}
+.Btn-Pjt{
+
+  padding: 15px 60px;
+  border:solid 1px;
+  background: #0590e6;
+}
+.Btn-Pjt:hover{
+  background: #0376be;
+}
